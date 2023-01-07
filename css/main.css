@@ -15,6 +15,8 @@
     background: #FF8126;
     border-radius: 5px;
     padding: 8px 36px 10px 36px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .container{
     max-width: 1170px;
