@@ -1,13 +1,33 @@
 * {
     padding: 0;
     margin: 0;
+    /*font-family: 'Cormorant', serif; ШРИФТ-1*/
+    /*font-family: 'Poppins', sans-serif; ШРИФТ-2*/
 }
-
 .btn{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
     display: inline-block;
+    background: #FF8126;
+    border-radius: 5px;
+    padding: 8px 36px 10px 36px;
 }
 .container{
-
+    max-width: 1170px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+}
+.items_center{
+    align-items: center;
+}
+.space_btw{
+    justify-content: space-between;
 }
 
 
