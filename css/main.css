@@ -31,5 +31,8 @@
 .space_btw{
     justify-content: space-between;
 }
+.flex-start{
+    align-items: flex-start;
+}
 
 
