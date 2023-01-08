@@ -59,7 +59,7 @@ header nav ul li:first-of-type {
     margin-left: 0px;
 }
 
-header nav ul li:nth-child(-n+3):after {
+header nav ul li a:nth-child(-n+3):after {
     content: '';
     display: inline-block;
     background: url("../images/arrow_down_menu.svg") center no-repeat;
