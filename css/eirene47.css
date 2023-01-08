@@ -1,0 +1,34 @@
+.main-banner{
+    background-image: url("../images/banner_image.jpg");
+    min-height: 500px;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 195px;
+    box-sizing: border-box;
+}
+.main-banner-text{
+    max-width: 570px;
+}
+.main-banner-text h1{
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1F1F1F;
+    margin-bottom: 5px;
+}
+.main-banner-text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 1170px){
+    .main-banner-text{
+        padding-left: 20px;
+    }
+}
