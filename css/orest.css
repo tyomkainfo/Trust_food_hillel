@@ -1,7 +1,32 @@
-.charityO{
-    max-width: 770px;
+.charity_O{
     background-image: url("../images/Our Partner.jpg");
+    min-height: 395px;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
 }
-.image_O{
+.container_O{
+    text-align: center;
+}
+.container_O h5{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 34px;
+}
+.container_O img{
+    margin-bottom: 45px;
+    display: flex;
+    margin-inline: auto;
+}
+.container_O btn{
+    margin-bottom: 60px;
+}
 
-}
+
