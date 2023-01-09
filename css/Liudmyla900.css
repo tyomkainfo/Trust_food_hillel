@@ -1,0 +1,27 @@
+.instagram{
+    padding: 80px 50px;
+}
+.instagram h2{
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+}
+.instagram h2 a{
+    color: #FF8126;
+}
+.instagram_gallery article{
+    max-width: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+.arrow{
+    border-radius: 50%;
+}
+
+
