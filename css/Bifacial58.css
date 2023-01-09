@@ -31,3 +31,25 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+
+@media only screen and (max-width: 520px){
+    .tell .container{
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .tell .container ul{
+        margin: auto;
+    max-width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .tell .container ul li{
+    max-width: 33%;
+
+    }
+}
