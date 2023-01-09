@@ -34,9 +34,11 @@
 header .container {
     padding: 20px 0;
 }
-header .logo{
+
+header .logo {
     margin-right: 60px;
 }
+
 ul.d_flex {
     list-style: none;
 }
@@ -59,35 +61,30 @@ header nav ul li:first-of-type {
     margin-left: 0px;
 }
 
-header nav ul li:nth-of-type(-n+3):after {
-    content: '';
-    display: inline-block;
-    background: url("../images/arrow_down_menu.svg") center no-repeat;
-    width: 9px;
-    height: 6px;
-    margin-left: 7px;
-    position: relative;
-    bottom: 1px;
-}
-header ul{
+header ul {
     margin-left: auto;
 }
+
 header ul li {
     margin-left: 10px;
 }
+
 @media only screen and (max-width: 1177px) {
-    .modal_bar button{
+    .modal_bar button {
         margin-right: 5px;
     }
 }
+
 @media only screen and (max-width: 1040px) {
     header nav ul li {
         margin-left: 25px;
     }
-    header .logo{
+
+    header .logo {
         margin-right: 40px;
     }
 }
+
 @media only screen and (max-width: 961px) {
     header nav ul li {
         margin-left: 25px;
@@ -99,35 +96,43 @@ header ul li {
         margin-left: 15px;
     }
 }
+
 @media only screen and (max-width: 923px) {
-    header .logo{
+    header .logo {
         margin-right: 20px;
     }
 }
+
 @media only screen and (max-width: 900px) {
     header nav ul li a {
         font-size: 13px;
     }
+
     .modal_bar p {
         font-size: 13px;
     }
 }
+
 @media only screen and (max-width: 840px) {
     header nav ul li {
         margin-left: 5px;
     }
 }
+
 @media only screen and (max-width: 800px) {
-    header nav{
+    header nav {
         display: none;
     }
-    header .logo{
+
+    header .logo {
         margin-left: auto;
     }
-    header ul{
+
+    header ul {
         margin-right: auto;
     }
 }
+
 @media only screen and (max-width: 414px) {
     .modal_bar_close {
         width: 10px;
@@ -136,14 +141,16 @@ header ul li {
     }
 
 }
+
 @media only screen and (max-width: 390px) {
-    .modal_bar p{
+    .modal_bar p {
         font-size: 12px;
     }
 
 }
+
 @media only screen and (max-width: 360px) {
-    .modal_bar p{
+    .modal_bar p {
         font-size: 10px;
     }
 
