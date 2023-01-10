@@ -74,7 +74,7 @@ display: inline-block;
         margin: auto;
         align-items: center;
     }
-    .surprise_someone h3, h4 {
-        font-size: 36px;
+    .surprise_someone h4 {
+        font-size: 35px;
     }
 }
